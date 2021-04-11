@@ -1,19 +1,39 @@
-body {
-  background-image: url("../images/bg.jpg");
+.index-bg-image {
+  height: 1000px;
+  background-image: url("../images/index_bg.jpg");
 
   /* Image is centered vertically and horizontally at all times */
   background-position: center center;
-  
+
   /* Image doesn't repeat */
   background-repeat: no-repeat;
-  
+
   /* Makes the image fixed in the viewport so that it doesn't move when 
      the content height is greater than the image height */
   background-attachment: fixed;
-  
+
   /* This is what makes the background image rescale based on its container's size */
   background-size: cover;
- 
+
+  filter: brightness(50%);
+}
+
+.bg-image {
+  height: 1000px;
+  background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIj48ZGVmcz48cGF0dGVybiBpZD0icGF0dGVybiIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgNDAsNDAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHBhdHRlcm5UcmFuc2Zvcm09InJvdGF0ZSgxMzUpICI+PHJlY3QgaWQ9InBhdHRlcm4tYmFja2dyb3VuZCIgd2lkdGg9IjQwMCUiIGhlaWdodD0iNDAwJSIgZmlsbD0icmdiYSgxMzAsIDE5NywgMTYwLDEpIj48L3JlY3Q+IDxwYXRoIGZpbGw9InJnYmEoMjA3LCAyMDQsIDE3MSwxKSIgZD0iTS0xMCAtMSBoNjAgdjIgaC02MHoiPjwvcGF0aD48cGF0aCBmaWxsPSJyZ2JhKDIwNywgMjA0LCAxNzEsMSkiIGQ9Ik0tMTAgMzkgaDYwIHYyIGgtNjB6Ij48L3BhdGg+PHBhdGggZmlsbD0icmdiYSgzNSwgNzgsIDgyLDEpIiBkPSJNLTEwIDI5LjUgIGg2MCB2MSBoLTYweiI+PC9wYXRoPjxwYXRoIGZpbGw9InJnYmEoMzUsIDc4LCA4MiwxKSIgZD0iTTI5LjUgLTEwIHY2MCBoMSB2LTYwIHoiPjwvcGF0aD48cGF0aCBmaWxsPSJyZ2JhKDIwNywgMjA0LCAxNzEsMSkiIGQ9Ik05IC0xMCB2NjAgaDIgdi02MCB6Ij48L3BhdGg+PC9wYXR0ZXJuPiAgPC9kZWZzPiA8cmVjdCBmaWxsPSJ1cmwoI3BhdHRlcm4pIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIj48L3JlY3Q+PC9zdmc+");
+
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
 }
 
 .navbar-font {
@@ -42,4 +62,14 @@ body {
 
 .navbar-collapse {
   flex-grow: 0 !important;
+}
+
+
+h1
+{
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 750;
+  text-align: center;
+  padding-top: 20%;
 }
