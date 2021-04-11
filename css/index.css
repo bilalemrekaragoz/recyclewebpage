@@ -85,12 +85,12 @@
   left: 50px;
 }
 
-.text-grad
+#text-login, #text-signup
 {
    color: green;
 }
 
-.text-grad:hover
+#text-login:hover, #text-signup:hover
 {
   color: brown;
 }
