@@ -1,6 +1,6 @@
 .index-bg-image {
   height: 1000px;
-  
+
   background-image: url("../images/index_bg.jpg");
 
   /* Image is centered vertically and horizontally at all times */
@@ -15,13 +15,11 @@
 
   /* This is what makes the background image rescale based on its container's size */
   background-size: cover;
-
-  
 }
 
 .bg-image {
   height: 1000px;
-  background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIj48ZGVmcz48cGF0dGVybiBpZD0icGF0dGVybiIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgNDAsNDAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHBhdHRlcm5UcmFuc2Zvcm09InJvdGF0ZSgxMzUpICI+PHJlY3QgaWQ9InBhdHRlcm4tYmFja2dyb3VuZCIgd2lkdGg9IjQwMCUiIGhlaWdodD0iNDAwJSIgZmlsbD0icmdiYSgxMzAsIDE5NywgMTYwLDEpIj48L3JlY3Q+IDxwYXRoIGZpbGw9InJnYmEoMjA3LCAyMDQsIDE3MSwxKSIgZD0iTS0xMCAtMSBoNjAgdjIgaC02MHoiPjwvcGF0aD48cGF0aCBmaWxsPSJyZ2JhKDIwNywgMjA0LCAxNzEsMSkiIGQ9Ik0tMTAgMzkgaDYwIHYyIGgtNjB6Ij48L3BhdGg+PHBhdGggZmlsbD0icmdiYSgzNSwgNzgsIDgyLDEpIiBkPSJNLTEwIDI5LjUgIGg2MCB2MSBoLTYweiI+PC9wYXRoPjxwYXRoIGZpbGw9InJnYmEoMzUsIDc4LCA4MiwxKSIgZD0iTTI5LjUgLTEwIHY2MCBoMSB2LTYwIHoiPjwvcGF0aD48cGF0aCBmaWxsPSJyZ2JhKDIwNywgMjA0LCAxNzEsMSkiIGQ9Ik05IC0xMCB2NjAgaDIgdi02MCB6Ij48L3BhdGg+PC9wYXR0ZXJuPiAgPC9kZWZzPiA8cmVjdCBmaWxsPSJ1cmwoI3BhdHRlcm4pIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIj48L3JlY3Q+PC9zdmc+");
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIj48ZGVmcz48cGF0dGVybiBpZD0icGF0dGVybiIgd2lkdGg9IjU1IiBoZWlnaHQ9IjU1IiB2aWV3Qm94PSIwIDAgNDAsNDAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHBhdHRlcm5UcmFuc2Zvcm09InJvdGF0ZSgxMzUpICI+PHJlY3QgaWQ9InBhdHRlcm4tYmFja2dyb3VuZCIgd2lkdGg9IjQwMCUiIGhlaWdodD0iNDAwJSIgZmlsbD0icmdiYSgyNTQsIDI1MCwgMjI0LDEpIj48L3JlY3Q+IDxwYXRoIGZpbGw9InJnYmEoMjA0LCAyMTMsIDE3NCwxKSIgZD0iTS0xMCAtMSBoNjAgdjIgaC02MHoiPjwvcGF0aD48cGF0aCBmaWxsPSJyZ2JhKDIwNCwgMjEzLCAxNzQsMSkiIGQ9Ik0tMTAgMzkgaDYwIHYyIGgtNjB6Ij48L3BhdGg+PHBhdGggZmlsbD0icmdiYSgyMjEsIDE2MSwgOTQsMSkiIGQ9Ik0tMTAgMjkuNSAgaDYwIHYxIGgtNjB6Ij48L3BhdGg+PHBhdGggZmlsbD0icmdiYSgyMjEsIDE2MSwgOTQsMSkiIGQ9Ik0yOS41IC0xMCB2NjAgaDEgdi02MCB6Ij48L3BhdGg+PHBhdGggZmlsbD0icmdiYSgyMDQsIDIxMywgMTc0LDEpIiBkPSJNOSAtMTAgdjYwIGgyIHYtNjAgeiI+PC9wYXRoPjwvcGF0dGVybj4gIDwvZGVmcz4gPHJlY3QgZmlsbD0idXJsKCNwYXR0ZXJuKSIgaGVpZ2h0PSIxMDAlIiB3aWR0aD0iMTAwJSI+PC9yZWN0Pjwvc3ZnPg==");
 
   /* Image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -52,12 +50,15 @@
 }
 
 .navbar-background {
-  background: rgb(201, 199, 178);
+  background: rgb(233, 245, 219);
   background: linear-gradient(
     270deg,
-    rgba(201, 199, 178, 1) 0%,
-    rgba(161, 207, 167, 1) 50%,
-    rgba(163, 204, 213, 1) 100%
+    rgba(233, 245, 219, 1) 20%,
+    rgba(207, 225, 185, 1) 40%,
+    rgba(181, 201, 154, 1) 60%,
+    rgba(151, 169, 124, 1) 78%,
+    rgba(135, 152, 106, 1) 86%,
+    rgba(113, 131, 85, 1) 100%
   );
 }
 
@@ -65,25 +66,31 @@
   flex-grow: 0 !important;
 }
 
-
-h1
-{
-  color: white;
+#aboutus {
+  color: black;
   font-family: "Montserrat";
-  font-weight: 750;
+  font-size: 50px;
   text-align: center;
-  padding-top: 20%;
+  padding-top: 15%;
 }
 
-#index-page-p
-{
+#index-page-p {
   font-family: "Montserrat";
   font-size: 40px;
   color: white;
-  width:500px;
-	height:150px; 
+  width: 500px;
+  height: 150px;
   position: absolute;
   top: 100px;
   left: 50px;
+}
 
+.text-grad
+{
+   color: green;
+}
+
+.text-grad:hover
+{
+  color: brown;
 }
