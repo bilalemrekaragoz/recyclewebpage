@@ -1,5 +1,6 @@
 .index-bg-image {
   height: 1000px;
+  
   background-image: url("../images/index_bg.jpg");
 
   /* Image is centered vertically and horizontally at all times */
@@ -15,7 +16,7 @@
   /* This is what makes the background image rescale based on its container's size */
   background-size: cover;
 
-  filter: brightness(50%);
+  
 }
 
 .bg-image {
@@ -72,4 +73,17 @@ h1
   font-weight: 750;
   text-align: center;
   padding-top: 20%;
+}
+
+#index-page-p
+{
+  font-family: "Montserrat";
+  font-size: 40px;
+  color: white;
+  width:500px;
+	height:150px; 
+  position: absolute;
+  top: 100px;
+  left: 50px;
+
 }
