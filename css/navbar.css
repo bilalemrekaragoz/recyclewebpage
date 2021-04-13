@@ -1,0 +1,38 @@
+.navbar-font {
+    font-family: "Montserrat" !important;
+    font-weight: 500;
+  }
+  
+  .navbar-right-items {
+    padding-right: 0 !important;
+  }
+  
+  .center-navbar :nth-child(n) {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  .navbar-background {
+    background: rgb(214,206,147);
+  background: linear-gradient(270deg, rgba(214,206,147,1) 0%, rgba(239,235,206,1) 50%, rgba(214,206,147,1) 100%);
+  }
+  
+  .navbar-collapse {
+    flex-grow: 0 !important;
+  }
+
+  #text-why
+{
+  color: rgba(0,0,0,.55);
+}
+
+#text-why:hover
+{
+  color: rgb(255, 125, 0)
+}
+
+
+#why-active
+{
+  color: rgba(0,0,0,.9);
+}
