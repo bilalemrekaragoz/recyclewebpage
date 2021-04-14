@@ -13,8 +13,8 @@
   }
   
   .navbar-background {
-    background: rgb(214,206,147);
-  background: linear-gradient(270deg, rgba(214,206,147,1) 0%, rgba(239,235,206,1) 50%, rgba(214,206,147,1) 100%);
+    background: rgb(244,241,222);
+    background: linear-gradient(90deg, rgba(244,241,222,0.9) 0%, rgba(244,241,222,0.6) 15%, rgba(244,241,222,0.9) 50%, rgba(244,241,222,0.6) 85%, rgba(244,241,222,0.9) 100%);
   }
   
   .navbar-collapse {
