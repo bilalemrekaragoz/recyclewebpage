@@ -1,0 +1,38 @@
+#tracking-panel
+{
+    position: absolute !important;
+    left: 50% !important; 
+    top: 50% !important;
+    width: 500px !important;
+    height: 100px;
+    margin-left: -250px;
+    margin-top: -300px;
+}
+
+.card
+{
+    height: 250px;
+}
+
+.card-text
+{
+    position: relative;
+    top: 7%;
+}
+
+.card-link
+{
+    position: relative;
+    top: 8%;
+    
+}
+
+#button-addon2
+{
+    background-color:#a5a58d;
+}
+
+.btn-outline-secondary
+{
+    color: #f1faee !important;
+}

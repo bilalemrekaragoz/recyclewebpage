@@ -5,8 +5,8 @@
     <title>TRACK YOUR RECYCLE CODE</title>
     <!--Internal CSS-->
     <link rel="stylesheet" type="text/css" href="css/trackcode.css" />
-    <link rel="stylesheet" type="text/css" href="css/navbar.css"/>
-    <link rel="stylesheet" type="text/css" href="css/background.css"/>
+    <link rel="stylesheet" type="text/css" href="css/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="css/background.css" />
     <!--Font Family-->
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat"
@@ -82,15 +82,61 @@
           <div id="navbarNav">
             <ul class="nav">
               <li class="nav-item">
-                <a class="nav-link" id="text-why" href="why.html">WHY Recycle</a>
+                <a class="nav-link" id="text-why" href="why.html"
+                  >WHY Recycle</a
+                >
               </li>
-              <li class="nav-item">
+              <li class="nav-item"></li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <main class="bg-image"></main>
+    <main class="bg-image">
+      <div id="tracking-panel">
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter Your Tracking Code Here"
+            aria-label="Code Area"
+            aria-describedby="button-addon2"
+          />
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="button-addon2"
+          >
+            Track
+          </button>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Progress Level</h5>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 75%"
+              ></div>
+            </div>
+            <h6 class="card-subtitle mb-2 text-muted"><br />Ready for Reuse</h6>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              excepturi laudantium ad! Nostrum nemo tempora illum cum esse
+              mollitia eum fugit.<br />
+            </p>
+            <a href="createcode.html" class="card-link">Create Another Code</a>
+            <a href="https://www.instagram.com/?hl=tr" class="card-link"
+              >Share it With Your Frineds></a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
     <!-- Scripts -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
