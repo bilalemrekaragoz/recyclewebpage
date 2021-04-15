@@ -1,0 +1,33 @@
+#services
+{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    margin-left: -466px;
+    margin-top: -30px;
+}
+
+.card
+{
+    width: 300px !important;
+    height: auto;
+}
+
+#services-text
+{
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 1%;
+}
+
+#partners
+{
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+}
+
+.carousel-control-next, .carousel-control-prev
+{
+    color: black !important;
+}
