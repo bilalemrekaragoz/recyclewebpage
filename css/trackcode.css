@@ -4,11 +4,24 @@
     left: 50% !important; 
     top: 50% !important;
     width: 500px !important;
-    height: 100px;
+    height: auto;
     margin-left: -250px;
     margin-top: -300px;
 }
 
+@media only screen and (max-width: 1300px)
+{
+    #tracking-panel
+    {
+        position: absolute !important;
+        left: 50% !important; 
+        top: 50% !important;
+        width: 500px !important;
+        height: auto;
+        margin-left: -250px;
+        margin-top: -300px;
+    }
+}
 .card
 {
     height: 250px;
