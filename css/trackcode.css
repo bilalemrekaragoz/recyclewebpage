@@ -9,7 +9,7 @@
     margin-top: -300px;
 }
 
-@media only screen and (max-width: 1300px)
+@media only screen and (min-width: 800px) and (max-width: 1350px)
 {
     #tracking-panel
     {
@@ -23,17 +23,16 @@
     }
 }
 
-@media only screen and (max-width: 800px)
+@media only screen and (min-width: 700px) and (max-width: 799px)
 {
     #tracking-panel
     {
-        position: absolute !important;
-        left: 50% !important; 
-        
-        width: 500px !important;
-        height: auto;
-        margin-left: -250px;
+        margin-top: -750px;
     }
+}
+
+@media resolution  {
+    
 }
 
 .card
