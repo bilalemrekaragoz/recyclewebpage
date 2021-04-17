@@ -19,6 +19,19 @@
         margin-top: -30px;
     }
 }
+
+@media only screen and (max-width:800px)
+{
+    #services
+    {
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        margin-left: -466px;
+        margin-top: -30px;
+    }
+}
+
 .card
 {
     width: 300px !important;

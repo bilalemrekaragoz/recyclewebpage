@@ -19,9 +19,23 @@
         width: 500px !important;
         height: auto;
         margin-left: -250px;
-        margin-top: -300px;
+        margin-top: -200px;
     }
 }
+
+@media only screen and (max-width: 800px)
+{
+    #tracking-panel
+    {
+        position: absolute !important;
+        left: 50% !important; 
+        
+        width: 500px !important;
+        height: auto;
+        margin-left: -250px;
+    }
+}
+
 .card
 {
     height: 250px;
