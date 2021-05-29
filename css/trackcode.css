@@ -31,13 +31,12 @@
     }
 }
 
-@media resolution  {
-    
-}
+
 
 .card
 {
-    height: 250px;
+    height: auto;
+    text-align: center;
 }
 
 .card-text
