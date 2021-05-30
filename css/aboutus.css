@@ -6,8 +6,13 @@
     padding-top: 15%;
   }
 
-#text
+#text2
 {
   padding-top: 100px !important;
   padding-bottom: 300px !important;
+}
+
+#text1
+{
+  padding-top: 25px !important;
 }
