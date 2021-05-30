@@ -17,10 +17,6 @@
   background-size: cover;
 }
 
-
-
-
-
 #index-page-p {
   font-family: "Montserrat";
   font-size: 40px;
@@ -32,4 +28,20 @@
   left: 50px;
   text-align: center;
 }
+
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+main {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 
