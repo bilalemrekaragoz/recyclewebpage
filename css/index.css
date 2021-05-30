@@ -44,4 +44,18 @@ footer {
   width: 100%;
 }
 
+#Intro
+{
+  z-index: 1;
+  padding-top: 4% !important;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 38px !important;
+  padding-bottom: 0% !important;
+  margin-bottom: 0% !important;
+}
+
+.page{
+  padding-top: 0 !important;
+}
 
