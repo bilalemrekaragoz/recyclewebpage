@@ -1,11 +1,6 @@
 .why
 {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 50%;
-    height: auto;
-    margin-left: -475px;
-    margin-top: -276.5px;
+    padding: 10%;
+    text-align: center;
 }
 
