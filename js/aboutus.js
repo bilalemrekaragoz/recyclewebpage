@@ -3,7 +3,7 @@ $(document).ready(function() {
 		var ourRequest = new XMLHttpRequest();
 		ourRequest.overrideMimeType("application/json");
 			 
-		ourRequest.open('GET','./aboutus-api.php');
+		ourRequest.open('GET','https://trackrecycle.herokuapp.com/aboutus-api.php');
 
 		ourRequest.onload=function(){
 			var ourData=JSON.parse(ourRequest.responseText);
