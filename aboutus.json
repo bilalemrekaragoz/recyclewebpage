@@ -1,0 +1,25 @@
+
+[
+	{
+		"title": "Card One",		
+		"text": "Bilal Emre Karagöz",
+		"image": "images/aboutus1.jpg"		
+	},
+	{
+		
+		"title": "Card Two",		
+		"text": "Berkay Kırtıllı",
+		"image": "images/aboutus2.jpg"	
+	},
+	{
+		
+		"title": "Card Three",		
+		"text": "Cemil Uysal",
+		"image": "images/aboutus3.jpg"		
+	},
+	{
+		"title": "Card Four",		
+		"text": "Levent Gümrükçü",
+		"image": "images/aboutus1.jpg"
+	}
+]
