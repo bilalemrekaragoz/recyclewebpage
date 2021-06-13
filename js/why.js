@@ -20,9 +20,9 @@ $(document).ready(function(){
             text += '<h3>' + ourData[i].title + '</h3>' +
             '<div>' +  '<p>' + ourData[i].text + '</p> </div>';
 
-            $(".accordion").html(text); 
+            
         }
-        
+        $(".accordion").html(text); 
     }
 
 });
