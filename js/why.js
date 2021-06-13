@@ -20,7 +20,7 @@ $(document).ready(function(){
             text += '<h3>' + ourData[i].title + '</h3>' +
             '<div>' +  '<p>' + ourData[i].text + '</p> </div>';
 
-            $("#acordion").html(text);
+            $(".why-container").html(text);
             console.log("anan");
         }
         
