@@ -5,7 +5,7 @@ $(document).ready(function(){
 	var ourRequest = new XMLHttpRequest();
 	ourRequest.overrideMimeType("application/json");
 		
-	ourRequest.open('GET','why-api.php');
+	ourRequest.open('GET','https://bilalemrekaragoz.herokuapp.com/11/why.json');
 
 	ourRequest.onload=function(){
 		var ourData=JSON.parse(ourRequest.responseText);
