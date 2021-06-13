@@ -1,6 +1,6 @@
 $(document).ready(function(){
     
-   var text = "";
+    var text = "";
 
 	var ourRequest = new XMLHttpRequest();
 	ourRequest.overrideMimeType("application/json");
@@ -11,6 +11,7 @@ $(document).ready(function(){
 		var ourData=JSON.parse(ourRequest.responseText);
         textCreator(ourData);
 	};
+    
 	ourRequest.send();
 
     function textCreator(ourData)
@@ -19,10 +20,12 @@ $(document).ready(function(){
         {
             text += '<h3>' + ourData[i].title + '</h3>' +
             '<div>' +  '<p>' + ourData[i].text + '</p> </div>';
-
             
         }
         $(".accordion").html(text); 
     }
 
 });
+
+
+
