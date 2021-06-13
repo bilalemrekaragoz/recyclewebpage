@@ -1,3 +1,6 @@
 window.onload = function () {
-	$( "#accordion" ).accordion();
+	$( ".accordion" ).accordion({
+		collapsible: true
+	});
 };
+
