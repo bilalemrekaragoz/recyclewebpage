@@ -1,6 +1,7 @@
-$(document).ready(function() {
+
 	
-		var ourRequest = new XMLHttpRequest();
+window.onload = function () {
+	var ourRequest = new XMLHttpRequest();
 		ourRequest.overrideMimeType("application/json");
 			 
 		ourRequest.open('GET','https://trackrecycle.herokuapp.com/aboutus-api.php');
@@ -15,5 +16,4 @@ $(document).ready(function() {
 		};
 		ourRequest.send();	
 
-	
-	}); // end ready
+};
