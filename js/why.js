@@ -18,9 +18,11 @@ $(document).ready(function(){
         for(i=0 ; i<ourData.length; i++)
         {
             text += '<h3>' + ourData[i].title + '</h3>' +
-            '<div>' +  '<p>' + ourData[i].text + '</p> </div>'
+            '<div>' +  '<p>' + ourData[i].text + '</p> </div>';
+
+            $("#acordion").html(text);
         }
-        $("#acordion").html(text);
+        
     }
 
 });
