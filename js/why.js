@@ -21,6 +21,7 @@ $(document).ready(function(){
             '<div>' +  '<p>' + ourData[i].text + '</p> </div>';
 
             $("#acordion").html(text);
+            console.log("anan");
         }
         
     }
